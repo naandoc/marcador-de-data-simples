@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(68, 60, 60);
+
+    font-family: sans-serif;
+}
+
+#data1, #data2 {
+    margin: .5rem 0 3rem;
+
+    width: 7rem;
+}
+
+.calendar th, td{
+    border: solid 1px black;
+    width:40px;
+    height: 30px;
+
+    text-align: center;
+  }
+  
+.calendar{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+   margin: 5rem auto;
+
+   width: 50%;
+
+   background-color: #e9adad;
+
+   border: solid 1px rgb(86, 86, 168);
+   border-radius: 3px;
+
+   padding: 5rem 0;
+}
+
+.resultado-dias {
+    margin-top: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    visibility: hidden;
+}
+
+.title {
+    font-size: .8rem;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+button {
+    margin-top: 1rem;
+
+    border: none;
+    border-radius: 2px;
+
+    padding: .8rem .3rem;
+
+    cursor: pointer;
+
+    font-size: .7rem;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+
+    transition: .5s;
+}
+button:hover {
+    background-color: #cc7f7f;
+    color: #fff;
+
+    transform: scale(1.05);
+
+}
